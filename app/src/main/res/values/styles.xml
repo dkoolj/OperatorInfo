@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Transparent" parent="android:Theme.Material">
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/navigation_bar</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name ="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+    <color name="transparent">#D9000000</color>
+    <color name="primary">#5CAFEA</color>
+    <color name="primary_dark">#5CA4BB</color>
+    <color name="accent">#72D177</color>
+    <color name="navigation_bar">#B35CAFEA</color>
+    <color name="text_primary">#fff</color>
+    <!--
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+</resources>

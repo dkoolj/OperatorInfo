@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:overScrollMode="always"
+    android:clickable="false" >
+
+    <!-- TextView to Display getLine1Number -->
+    <TextView
+        android:id="@+id/getLine1Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to display networkOperatorName -->
+    <TextView
+        android:id="@+id/networkOperatorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display simOperatorName -->
+
+    <TextView
+        android:id="@+id/simOperatorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getNetworkCountryIso -->
+    <TextView
+        android:id="@+id/getNetworkCountryIso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getNetworkOperator -->
+    <TextView
+        android:id="@+id/getNetworkOperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getSimOperator -->
+    <TextView
+        android:id="@+id/getSimOperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getNetworkType -->
+    <TextView
+        android:id="@+id/getNetworkType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getPhoneType -->
+    <TextView
+        android:id="@+id/getPhoneType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getCallState -->
+    <TextView
+        android:id="@+id/getCallState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getCellLocation -->
+    <TextView
+        android:id="@+id/getCellLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getDataActivity -->
+    <TextView
+        android:id="@+id/getDataActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getDataState -->
+    <TextView
+        android:id="@+id/getDataState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getDeviceId -->
+    <TextView
+        android:id="@+id/getDeviceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getDeviceSoftwareVersion -->
+    <TextView
+        android:id="@+id/getDeviceSoftwareVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getSimSerialNumber -->
+    <TextView
+        android:id="@+id/getSimSerialNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getSimState -->
+    <TextView
+        android:id="@+id/getSimState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getSubscriberId -->
+    <TextView
+        android:id="@+id/getSubscriberId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display hasIccCard -->
+    <TextView
+        android:id="@+id/hasIccCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display isNetworkRoaming -->
+    <TextView
+        android:id="@+id/isNetworkRoaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display isSmsCapable -->
+    <TextView
+        android:id="@+id/isSmsCapable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getGroupIdLevel1 -->
+    <TextView
+        android:id="@+id/getGroupIdLevel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getNeighboringCellInfo -->
+    <TextView
+        android:id="@+id/getNeighboringCellInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- TextView to Display getAllCellInfo -->
+    <TextView
+        android:id="@+id/getAllCellInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+</ScrollView>
